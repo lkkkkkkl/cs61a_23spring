@@ -4,6 +4,11 @@ from utils import lower, split, remove_punctuation, lines_from_file
 from ucb import main, interact, trace
 from datetime import datetime
 
+"""
+finish ALL
+finish ALL
+finish ALL
+"""
 
 ###########
 # Phase 1 #
@@ -335,7 +340,7 @@ def fastest_words(match):
     player_indices = range(len(get_all_times(match)))  # contains an *index* for each player
     word_indices = range(len(get_all_words(match)))    # contains an *index* for each word
     # BEGIN PROBLEM 10
-    fastest = [[]for _ in player_indices]
+    fastest = [[] for _ in player_indices]
 
     for word in word_indices:
         fastest_person = 0
